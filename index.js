@@ -1,11 +1,11 @@
 // Write your solution here!
 function destructivelyAppendKitten(name) {
-  kittens.push("Ralph")
-  return name
+  kittens.push("Ralph");
+  return name;
 }
 function destructivelyPrependKitten(name) {
-  kittens.unshift("Bob")
-  return name
+  kittens.unshift("Bob");
+  return name;
 }
 function destructivelyRemoveLastKitten() {
   return kittens.pop();
